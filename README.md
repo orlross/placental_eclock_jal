@@ -3,6 +3,7 @@ R code for the creation of the JAL placental epigenetic clock and results of ass
 
 ## Introduction 
 This work was realised during a final intership at IAB, Grenoble, under the supervision of Johanna Lepeule, Aurélie Nakamura, Lucile Broseus and François Septier. 
+The file main.R is used to run all programs in the right order 
 
 ## Available data 
 
@@ -20,5 +21,12 @@ There exist four different placental epigenetic clocks :
 
 Compared to our data, all of those epigenetic clocks contains missing cpgs. 
 One idea to deal with this trouble was to imputed missing cpgs with the mean of cpgs included in original dataset. 
+
+## The construction of the epigenetic clock 
+
+First all beta values were transformed into M-values. 
+Then an EWAS was conducted to shortlisted CpGs associated with gestational age. 
+Then a Lasso regression was performed. 
+A sensitivity analysis (as) was conduction with gestational age estimated by ultrasound.  
 
 
