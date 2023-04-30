@@ -17,6 +17,7 @@ There exist four different placental epigenetic clocks :
 - The RPC clock develop by Lee 
 - The CPC clock develop by Lee 
 - The RRPC clock develop by Lee 
+
 Compared to our data, all of those epigenetic clocks contains missing cpgs. 
 One idea to deal with this trouble was to imputed missing cpgs with the mean of cpgs included in original dataset. 
 
