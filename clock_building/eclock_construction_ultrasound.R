@@ -1,9 +1,8 @@
 ################################################################################
-# Master 2 - DSDM
-# Code 07.01 - eClock construction rlm.m - Lasso
+# Epigenetic clock construction - ultrasound data
 ################################################################################
-# Author: Orlane LE QUELLENNEC
-# Date: 13/09/2022
+# Author: Orlane Rossini
+# Date: 23/07/2023
 ################################################################################
 # Main objectives:
 #------------------------------------------------------------------------------#
@@ -108,7 +107,7 @@ mean(coef_Mat_02[-1]) # 0.004371185
 # Partie III : Save final models
 ################################################################################
 
-saveRDS(lasso_model , file = "models/as_eclock.rds")
+saveRDS(lasso_model , file = "models/eclock_ultrasound.rds")
 
 ################################################################################
 rm(list = ls())
