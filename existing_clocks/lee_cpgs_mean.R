@@ -1,8 +1,7 @@
 ################################################################################
-# Master 2 - DSDM
-# Code 02.02 - get beta values mean for Lee CpGs
+# Get beta values mean for Lee CpGs
 ################################################################################
-# Author: Orlane LE QUELLENNEC
+# Author: Orlane Rossini
 # Date: 30/08/2022
 ################################################################################
 # Main objectives:

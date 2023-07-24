@@ -1,8 +1,7 @@
 ################################################################################
-# Master 2 - DSDM
-# Code 02.01 - Get beta values mean for Mayne CpGs
+# Get beta values mean for Mayne CpGs
 ################################################################################
-# Author: Orlane LE QUELLENNEC
+# Author: Orlane Rossini
 # Date: 30/08/2022
 ################################################################################
 # Main objectives:

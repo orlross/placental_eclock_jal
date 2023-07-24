@@ -1,8 +1,7 @@
 ################################################################################
-# Master 2 - DSDM
-# Code 03 - Epigenetic gestational age estimations 
+# Epigenetic gestational age estimations with existing clocks
 ################################################################################
-# Author: Orlane LE QUELLENNEC
+# Author: Orlane Rossini
 # Date: 30/08/2022
 ################################################################################
 # Main objectives:
@@ -10,7 +9,7 @@
 # For EDEN (450K / EPIC) PELAGIE and SEPAGES 
 # 1 - Get the mean of missing CpGs
 # 2 - Get epigenetic gestational age estimations
-# 3 - Compute DAA, RAA, RAA_aj
+# 3 - Compute residuals with imputed epigenetic GA and non imputed
 ################################################################################
 ################################################################################
 # Paths 
