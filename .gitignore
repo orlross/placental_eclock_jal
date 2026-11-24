@@ -1,0 +1,13 @@
+# Data: ne jamais pousser les données
+/data/
+
+# Fichiers temporaires R
+.Rhistory
+.RData
+.Ruserdata
+
+# Fichiers temporaires RStudio
+.Rproj.user/
+
+# Fichiers système Mac
+.DS_Store
